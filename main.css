@@ -1,0 +1,41 @@
+body {
+  margin: 0 auto;
+  min-width: 980px;
+  max-width: 1500px;
+}
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon_AXIT{
+  color: orange;
+  font-size: 1.5em;
+}
+
+.icon_AXIT_container{
+  padding-left: 3%;
+  padding-top: 0.4%;
+}
+
+.nav{
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.nav_item{
+  padding-right: 10%;
+}
+.nav_link{
+  text-decoration: none;
+  color: gray;
+}
+a:hover{
+  color: white;
+}
+
+.registration_menu{
+  h
+}
