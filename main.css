@@ -7,6 +7,7 @@ body {
   background-color: black;
   display: flex;
   justify-content: space-between;
+  height: 20%;
 }
 
 .icon_AXIT{
@@ -26,7 +27,7 @@ body {
   flex-direction: row-reverse;
 }
 .nav_item{
-  padding-right: 10%;
+  margin-right: 10%;
 }
 .nav_link{
   text-decoration: none;
@@ -37,5 +38,155 @@ a:hover{
 }
 
 .registration_menu{
-  h
+  background-color:rgb(128, 128, 128);
+  height: 60%;
 }
+.insert_your_picture_here{
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 1%;
+  color: rgb(200, 200 ,200);
+  opacity: 0.7;
+}
+.again_AXIT{
+  font-size: 3em;
+  padding-left: 3%;
+  color: orange;
+  margin-bottom: 0.5%;
+  width: 10%;
+}
+.about_AXIT{
+  color: white;
+  font-size: 1.5em;
+  padding-left: 3%;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  width: 23%;
+}
+
+.idk_what_is_it{
+  padding-left: 3%;
+  margin-top: 1.5%;
+  color: rgb(200, 200, 200);
+  width: 13%;
+}
+
+.download_button{
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  background-color:rgb(128, 128, 128);
+  border: 2px solid white;
+  color: white;
+}
+
+.reg_form{
+  position: absolute;
+  right: 15%;
+  top: 9%;
+  border: 2px solid white;
+  padding: 1%;
+  border-radius: 2em;
+}
+
+#first_h1{
+  border-bottom: 1px white solid;
+}
+
+span{
+  color: orange;
+}
+
+.reg_input{
+  background-color:rgb(128, 128, 128);
+  border: none;
+  border-bottom: 2px solid white;
+  width: 98%;
+  margin-bottom: 5%;
+}
+
+.reg_input::placeholder{
+  color: white;
+  padding-left: 10%;
+}
+
+.input_container{
+  text-align: center;
+}
+
+.reg_input:hover, :focus{
+  border: 2px solid white;
+  border-radius: 2em;
+  outline: 0;
+  outline-offset: 0;
+  transform: translateX(15px);
+}
+
+.get_started_button{
+  background-color: orange;
+  margin-left: 10%;
+  border: none;
+  border-radius: 2em;
+}
+
+.awesome_information_container{
+  background-color: white;
+}
+
+.why_this_is_awesome{
+  text-align: center;
+  padding-top: 1%;
+  
+}
+
+.awesome_about{
+  color: rgb(128, 128, 128);
+  padding-bottom: 2%;
+}
+
+.awesome_facts{
+  display: flex;
+}
+
+.thoughtful_design{
+  padding-left: 15%;
+}
+
+.well_crafted{
+  padding-left: 15%;
+}
+
+.easy_to_costomize{
+  padding-left: 15%;
+}
+
+footer{
+  background-color: black;
+  border-top: 2px solid white;
+  color: white;
+  display: flex;
+}
+
+.social_media{
+  padding-left: 3%;
+  padding-top: 1%;
+  margin-bottom: 1%;
+}
+
+.nav_footer{
+  display: flex;
+}
+
+.footer_ul{
+  margin-left: 80%;
+}
+
+.footer_li{
+  color: gray;
+  list-style: none;
+}
+
+a:focus{
+  border: none;
+} 
